@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+img{
+  width: 140px;
+  height: 180px;
+  border: 2px solid rgb(191,94,97);
+  border-radius: 10px;
+  
+}
+
+.event-card{
+  width: 16rem;
+  background-color: rgb(59,66,82);
+  height: 20rem;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  transition: background-color 0.3s, transform 0.3s;
+  
+}
+.event-card:hover{
+  background-color: rgb(191, 94, 97);
+  transform: scale(1.1);
+}
+
+.event-header{
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  color: rgb(216,222,233);
+  background-color: rgb(33,37,41);
+  border-top:  1px transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.event-body{
+  color: rgb(216,222,233);
+  font-family: "Roboto";
+  font-size: 1.1rem;
+}
+
+.img-div{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-div{
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  color: rgb(216,222,233);
+  display: flex;
+  justify-content: center;
+}
+
+.event-panel{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header{
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  border-bottom: 1px solid white;
+  color: rgb(33,37,41);
+  background-color: rgb(216,222,233);
+  display: flex;
+  justify-content: center;
+}
+
+.panel-content{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color:rgba(0, 0, 0, 0.602) ;
+}
